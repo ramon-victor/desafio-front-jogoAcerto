@@ -52,7 +52,7 @@ function alterarLEDs(numero, cor) {
 
 // Identifica se o palpite está de acordo com os requisitos
 function palpiteValido(palpite) {
-    return palpite <= 300 && palpite >= 0;
+    return palpite <= 300 && palpite >= 0 && palpite != "";
 }
 
 
@@ -94,6 +94,8 @@ function verificarPalpite() {
     } else {
         fraseResultado.classList.remove("exibir");
     }
+
+    campoPalpite.value = "";
 }
 
 // Inicia uma nova partida obtendo um novo valor e desbloqueando os palpites
