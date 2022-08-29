@@ -37,11 +37,3 @@
     background-color: #F5F5F5;
 }
 
-
-/* Media Querie para ajuste de responsividade */
-
-@media(max-width:400px) {
-    .palpite {
-        margin-top: 160px;
-    }
-}
