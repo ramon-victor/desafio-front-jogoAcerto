@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prova - Front-end - 2022 (Studio Sol)</title>
+    <meta name="description" content="É um desafio proposto pela Studio Sol, a empresa brasileira líder em download de aplicativos e Top Developer na Google Play.
+        A solução é desenvolvida em HTML, CSS e JavaScript. Sem utilização de bibliotecas externas.">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header></header>
+
+    <main class="container">
+        <div class="conteudo">
+            <h1 class="font-1-l-b pergunta">Qual é o número?</h1>
+
+            <span class="frase-resultado font-1-s-b cor-erro">ERRO</span>
+
+            <div class="numeros">
+                <img class="exibir" src="img/num-preto/num0.svg" alt="Número em formato de LED de 7 segmentos">
+                <img src="img/num-preto/num0.svg" alt="Número em formato de LED de 7 segmentos">
+                <img src="img/num-preto/num0.svg" alt="Número em formato de LED de 7 segmentos">
+            </div>
+
+            <div class="nova-partida">
+                <button onclick="novaPartida()" class="bt-novaPartida font-2-xs-b cor-0"><img src="img/refresh.svg"
+                        alt="Ícone recarregar"><span>Nova Partida</span></button>
+            </div>
+
+            <div class="palpite">
+                <form onsubmit="return false">
+                    <input class="cor-6" min="0" max="300" type="number" id="palpite" name="tentativa"
+                        placeholder="Digite o palpite" required />
+                    <button onclick="verificarPalpite()" class="bt-palpite font-2-xs-b cor-0"
+                        for="palpite">Enviar</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="./js/getNumero.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

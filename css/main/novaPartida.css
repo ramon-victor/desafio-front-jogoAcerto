@@ -1,0 +1,36 @@
+.nova-partida {
+    display: none;
+    margin-top: 360px;
+    position: absolute;
+}
+
+.nova-partida.exibir {
+    display: inline-block;
+}
+
+.bt-novaPartida {
+    cursor: pointer;
+    width: 130px;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #434854, #9E9E9E) no-repeat;
+}
+
+
+.bt-novaPartida > img,
+.bt-novaPartida > span {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
+
+/* Media Querie para ajuste de responsividade */
+
+@media(max-width:400px) {
+    .nova-partida {
+        margin-top: 340px;
+    }
+}
+
+

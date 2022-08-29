@@ -1,0 +1,41 @@
+/**
+* Todas tipografias utilizadas no projeto se encontram nesse arquivo.
+* Facilitando a manutenção e alteração.*/
+
+
+.font-2-xs,
+.font-2-xs-b {
+    font: 400 0.75rem "Roboto", sans-serif;
+}
+
+.font-2-xs-b {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.font-1-s {
+    font: 400 1rem "Montserrat", sans-serif;
+}
+
+.font-1-s-b {
+    font-weight: 700;
+}
+
+.font-1-l,
+.font-1-l-b {
+    font: 400 2.25rem "Montserrat", sans-serif;
+}
+
+.font-1-l-b {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+/* Media Querie para ajuste de responsividade */
+
+@media(max-width:400px) {
+    .font-1-l-b {
+        font-size: 1.5rem;
+    }
+}

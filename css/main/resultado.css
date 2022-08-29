@@ -1,0 +1,11 @@
+.frase-resultado {
+    display: none;
+    margin-top: 130px;
+    position: absolute;
+}
+
+.frase-resultado.exibir {
+    display: inline-block;
+}
+
+

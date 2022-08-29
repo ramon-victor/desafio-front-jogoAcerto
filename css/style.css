@@ -1,0 +1,12 @@
+@import "./global/global.css";
+
+/* Utilidades */
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+
+/* Main */
+@import "./main/main.css";
+@import "./main/resultado.css";
+@import "./main/numeros.css";
+@import "./main/novaPartida.css";
+@import "./main/palpite.css";

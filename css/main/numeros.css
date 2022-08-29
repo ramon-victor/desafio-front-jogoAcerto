@@ -1,0 +1,31 @@
+.numeros {
+    margin-top: 130px;
+}
+
+.numeros>img {
+    display: none;
+    width: 74.47px;
+    height: 135px;
+    cursor: pointer;
+}
+
+.numeros>img+img {
+    margin-left: 5px;
+}
+
+.numeros>img.exibir {
+    display: inline-block;
+}
+
+/* Media Querie para ajuste de responsividade */
+
+@media(max-width:400px) {
+    .numeros {
+        margin-top: 160px;
+    }
+
+    .numeros>img {
+        width: 55.16px;
+        height: 100px;
+    }
+}

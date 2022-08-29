@@ -1,0 +1,70 @@
+/**
+* As principais cores utilizadas no projeto se encontram nesse arquivo.
+* Facilitando a manutenção e alteração.*/
+
+:root {
+    --cor-0: #FFFFFF;
+    --cor-1: #EEEEEE;
+    --cor-3: #CFCFCF;
+    --cor-4: #CCCCCC;
+    --cor-5: #262A34;
+    --cor-6: #222222;
+    --cor-p1: #EF6C00;
+    --cor-p2: #DB6300;
+    --cor-p3: #C0661C;
+    --cor-p4: #FF6600;
+    --cor-acerto: #32BF00;
+    --cor-erro: #CC3300;
+}
+
+.cor-0 {
+    color: var(--cor-0);
+}
+
+.cor-1 {
+    color: var(--cor-1);
+}
+
+.cor-2 {
+    color: var(--cor-2);
+}
+
+.cor-3 {
+    color: var(--cor-3);
+}
+
+.cor-4 {
+    color: var(--cor-4);
+}
+
+.cor-5 {
+    color: var(--cor-5);
+}
+
+.cor-6 {
+    color: var(--cor-6);
+}
+
+.cor-p1 {
+    color: var(--cor-p1);
+}
+
+.cor-p2 {
+    color: var(--cor-p2);
+}
+
+.cor-p3 {
+    color: var(--cor-p3);
+}
+
+.cor-p4 {
+    color: var(--cor-p4);
+}
+
+.cor-acerto {
+    color: var(--cor-acerto);
+}
+
+.cor-erro {
+    color: var(--cor-erro);
+}

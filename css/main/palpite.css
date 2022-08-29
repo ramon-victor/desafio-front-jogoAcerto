@@ -1,0 +1,47 @@
+.palpite>form {
+    margin-top: 145px;
+    height: 42px;
+}
+
+#palpite {
+    height: 100%;
+    padding: 0 12px;
+    width: 193px;
+    border-radius: 4px;
+    border: 1px solid var(--cor-3);
+    background-color: var(--cor-0);
+    font: 400 0.75rem "Roboto", sans-serif;
+    margin-right: 11px;
+}
+
+#palpite:focus {
+    border: 1px solid var(--cor-p1);
+    outline: none;
+}
+
+.bt-palpite {
+    cursor: pointer;
+    padding: 15px;
+    background: linear-gradient(180deg, var(--cor-p1) 0%, var(--cor-p3) 100%);
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+#palpite:disabled+button {
+    cursor: default;
+    background: #DDDDDD;
+}
+
+#palpite:disabled {
+    background-color: #F5F5F5;
+}
+
+
+/* Media Querie para ajuste de responsividade */
+
+@media(max-width:400px) {
+    .palpite {
+        margin-top: 160px;
+    }
+}

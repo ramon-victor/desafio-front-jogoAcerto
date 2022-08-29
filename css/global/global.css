@@ -1,0 +1,28 @@
+/**
+* As configurações gerais do projeto se encontram nesse arquivo.
+*/
+
+body {
+    margin: 0px;
+    font-family: Montserrat, Helvetica, sans-serif;
+    background: linear-gradient(180deg, var(--cor-1), var(--cor-0)) no-repeat;
+}
+
+h1,
+h2,
+p {
+    margin: 0px;
+}
+
+/* Webkit para esconder as setas do input de tipo numérico */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield; 
+}
+
+/* ------------------------------------------------------- */
